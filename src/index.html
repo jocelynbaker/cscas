@@ -11,28 +11,26 @@
   <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
   <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-<style>
-  #crap {
-    background-color: brown;
-  }
-</style>
 </head>
 
 <body data-smooth-scroll-offset="77">
   <div class="nav-container"> </div>
-  <div id="crap" class="main-container" class="container-fluid">
+  <div class="main-container" class="container-fluid" style="background-image:/al.jpg">
 
-    <h1> Yoinks </h1>
+    <section class="imagebg height-100 text-center" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+      <div class="background-image-holder"><img alt="background" src="img/cover.png"></div>
+        <h1 class ="text-center"> Computer Science CAS </h1>
+    </section>
 
     <section class="text-center">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-4" style="background-colour: teal">
             <p>hi</p>
           </div>
 
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-colour: blue">
             <p>hi</p>
           </div>
 
@@ -46,10 +44,26 @@
     <div class="row">
       <div id="blogNav" class="col-md-3">
         <img alt="image" src="img/inner-3.jpg">
+        <!-- Some fancy react code here -->
       </div>
 
       <div id="blogPosts" class="col-md-9">
         <img alt="image" src="img/inner-3.jpg">
+        <template id="blogPost">
+
+          <h3 class="postTitle">Sample Text</h3>
+          <img class="postImage" alt="" />
+          <p class="postText"> is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+
+        </template>
       </div>
     </div>
 
