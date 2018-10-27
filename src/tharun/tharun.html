@@ -46,9 +46,7 @@
                   background-color: rgb(255,255,255);
                 }
                 #return {
-                  font-size: 3em;
                   text-align: center;
-                  display: block;
                   margin-left: auto;
                   margin-right: auto;
                   text-decoration: none;
@@ -77,9 +75,13 @@
                   height: auto;
                   border-radius: 5%;
                 }
-                p::selection {
-                    color: rgb(170, 0, 255);;
+                ::selection {
                     background: white;
+                }
+                #links {
+                  display: block;
+                  font-size: 3em;
+                  color: white;
                 }
             </style>
         </head>
@@ -93,15 +95,24 @@
             <h2>a bit about <a href="https://www.facebook.com/tharunsathiyamoorthy">me</a></h2>
             <p id="bio">
               <br>1. i know where ubc is</br>
-              <br>2. i joined compsci cas to hang out with <a href=../connor/cpage.html>connor</a></br>
+              <br>2. i joined compsci cas to hang out with <strong><a href=../connor/cpage.html>connor</a></strong></br>
               <br><em>(i want to gain a better understanding of androids before they take over the world)</em></br>
               <br>3. my fav food is butter chicken</br>
               <br>4. in my free time i ...<em>   what free time?? #ib</em></br>
               <br>5. i can handle the business side, <a href="mailto:tsathiyamoorthy44@pearsoncollege.ca"><strong>email me</strong></a> for inquiries</br>
+              <br><a href="https://www.facebook.com/groups/1401833413216649/"><img id="meme1" src="../img/tharunmeme1.jpg" alt="i can handle the business side"></a></br>
+              <br>6. i am funnier than <strong><a href="joannepeng.com">joanne</a></strong> can ever be, but then again that is a (very) low bar to pass</br>
             </p>
             </div>
-            <a href="https://www.facebook.com/groups/1401833413216649/"><img id="meme1" src="../img/tharunmeme1.jpg" alt="i can handle the business side"></a>
             <br><br><br><br><br><br><br><br>
-            <a id="return" href="../index.html" >home</a>
+            <div id="links"><p>
+              <a id="return" href="../index.html" ><u><strong>go home</strong></u></a>
+              links:
+              <a id="return" href="https://www.facebook.com/tharunsathiyamoorthy"><strong>fb</strong></a>
+
+              <a id="return" href="https://www.instagram.com/thaaaarun/"><strong>ig</strong></a>
+
+              <a id="return" href="mailto:tsathiyamoorthy44@pearsoncollege.ca"><strong>email</strong></a>
+            </p></div>
         </body>
     </html>
