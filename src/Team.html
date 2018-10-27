@@ -4,10 +4,11 @@
     <head>
       <style>
       #header {
+        padding-top: 50px;
+        margin-bottom: -50px;
         text-align:center;
         size:3em;
         color:black;
-        background-color:rgb(222,117,107);
       }
       </style>
         <meta char,set="utf-8">
@@ -22,7 +23,14 @@
 
     <body data-smooth-scroll-offset="77">
         <div id="header">
-          <h1>Our Team</h1>
+          <div class="typed-headline">
+            <span class="h2 inline-block">
+              <p>Meet</p>
+            </span>
+            <span class="h2 inline-block typed-text typed-text--cursor color--primary" data-typed-strings="Connor,Aly,Joanne,Jocelyn,Joyce,Elis,Mohammed,Tharun,Faheem,Devin,Sherry">
+              Our Team
+            </span>
+          </div>
         </div>
         <div class="nav-container"> </div>
         <div class="main-container">
@@ -110,6 +118,7 @@
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
