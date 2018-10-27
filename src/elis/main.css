@@ -1,5 +1,5 @@
 .desc {
-  background-color: #D2EAE7;
+  background-color: ;
   width: auto;
 }
 .container {
@@ -8,36 +8,82 @@
 }
 
 .image {
-  opacity: 1;
+  opacity: 0.1;
   display: block;
   width: 100%;
-  height: auto;
-  transition: .5s ease;
+  height: 100%;
+  transition: 1s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  top: 52%;
+  left: 22%;
+  transform: translate(-40%, -60%);
+  -ms-transform: translate(-80%, -50%);
+  text-align: left;
 }
 
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .container:hover .middle {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #E5D164;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 45px 40px;
+  text-align: left;
+
+}
+
+.seas {
+  font-family: monospace;
+  color:grey;
+
+}
+.mtext {
+  float: right;
+  width: 25%;
+  padding-right:100px;
+  background-color: #E5D164;
+}
+
+.twoimage {
+  float:left;
+  width:20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.texttwo {
+  padding-top: 400px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.threeimage {
+  float: left;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.fourimage {
+  float: left;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+  padding-left: 18px;
 }
